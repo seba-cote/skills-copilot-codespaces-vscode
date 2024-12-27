@@ -18,6 +18,6 @@ http.createServer(function(request, response) {
             response.writeHead(200, {'Content-Type': 'text/html'});
             response.write(data.toString());
         }
-        response.end();
+        response.end();;
     });
 }).listen(8080);
